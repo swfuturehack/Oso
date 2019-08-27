@@ -1,0 +1,21 @@
+{
+  "name": "oso",
+  "version": "1.0.0",
+  "description": "An intelligent virtual personal assistant that function through chat bot and USSD to help student prepare better for assessment.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "feminstincts <feminstincts@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "natural": "^0.6.1",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0",
+    "rita": "^1.3.82",
+    "socket.io": "^2.1.1",
+    "wordnet-db": "^3.1.6"
+  }
+}
